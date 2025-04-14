@@ -1,27 +1,29 @@
-# Threat Intelligence
+# Анализ угроз (Threat Intelligence)
 
-## Description
-Threat Intelligence is the process of collecting, analyzing, and interpreting information about cyber threats that may impact the security of organizations. It involves studying data about attackers’ methods, tactics, tools, motivations, and goals. Threat Intelligence helps predict future attacks, detect current threats, and develop defense strategies. The primary sources of intelligence are open source (OSINT), commercial Threat Intelligence platforms, and internal company data.
+## Описание
+Анализ угроз — это процесс сбора, анализа и интерпретации информации о киберугрозах, которые могут повлиять на безопасность организаций. Он включает в себя изучение данных о методах, тактике, инструментах, мотивах и целях злоумышленников. Анализ угроз помогает прогнозировать будущие атаки, выявлять текущие угрозы и разрабатывать стратегии защиты. Основными источниками информации являются открытые источники (OSINT), коммерческие платформы анализа угроз и внутренние данные компании.
 
-## Practice
-The analyst uses Threat Intelligence to:
-- Collect threat data: Monitor Dark Web activity, analyze data leaks, track APT groups.
-- Interpret information: Analyze indicators of compromise (IOC) such as file hashes, IP addresses, domains associated with malicious activity.
-- Create reports: Prepare analytical materials on current and predicted threats for technical specialists and management.
-- Enrich monitoring: Use Threat Intelligence data to configure SIEM, EDR, NTA and other security systems.
-- Identify targets: Understand which industries, technologies or companies are the main targets of current attacks.
+## Практика
+Аналитик использует анализ угроз для:
 
-## Connection with other knowledge
-Threat Intelligence integrates with various aspects of Blue Team expertise:
-- Event Monitoring: Intelligence data is used to set up monitoring and attack detection rules.
-- Threat Hunting: Threat Intelligence helps to search for hidden threats in the infrastructure based on known techniques and indicators.
-- Attack Models: Data from Threat Intelligence can be used to analyze tactics and techniques using MITRE ATT&CK and Cyber ​​Kill Chain.
-- Information Security: Integration of intelligence data into SIEM and EDR helps in proactively protecting the infrastructure.
+- Сбора данных об угрозах: отслеживайте активность в даркнете, анализируйте утечки данных, отслеживайте APT-группы.
+- Интерпретации информации: проанализируйте индикаторы компрометации (IOC), такие как хэши файлов, IP-адреса, домены, связанные со вредоносной активностью.
+- Создания отчётов: подготавливайте аналитические материалы о текущих и прогнозируемых угрозах для технических специалистов и руководства.
+- Расширенный мониторинг: используйте данные об угрозах для настройки SIEM, EDR, NTA и других систем безопасности.
+- Определите цели: поймите, какие отрасли, технологии или компании являются основными объектами текущих атак.
 
-## How to improve
-- Learn IOC types, file hashes, suspicious domains, IP addresses, and more. Learn how to detect and analyze them.
-- Practice monitoring Dark Web activity and using OSINT tools like Shodan, Maltego, or Censys to gather information.
-- Read cyber threat reports from leading companies to learn approaches to threat analysis.
-- Improve your analytical writing skills to present threat data in a clear and structured form.
-- Practice enriching SIEM and EDR data using Threat Intelligence information.
-- Follow emerging trends and techniques in Threat Intelligence, including the use of machine learning for threat analysis.
+## Связь с другими знаниями
+Анализ угроз интегрируется с различными аспектами работы Blue Team:
+
+- Мониторинг событий: данные разведки используются для настройки правил мониторинга и обнаружения атак.
+- Поиск угроз: анализ угроз помогает выявлять скрытые угрозы в инфраструктуре на основе известных методов и индикаторов.
+- Модели атак: данные об угрозах можно использовать для анализа тактики и методов с помощью MITRE ATT&CK и Cyber Kill Chain.
+- Информационная безопасность: интеграция данных разведки в SIEM и EDR помогает заблаговременно защищать инфраструктуру.
+
+## Как улучшить
+- Ознакомьтесь с типами IOC, хешами файлов, подозрительными доменами, IP-адресами и многим другим. Узнайте, как их обнаруживать и анализировать.
+- Потренируйтесь отслеживать активность в даркнете и использовать инструменты OSINT, такие как Shodan, Maltego или Censys, для сбора информации.
+- Ознакомьтесь с отчетами ведущих компаний о киберугрозах, чтобы изучить подходы к анализу угроз.
+- Совершенствуйте свои навыки аналитического письма, чтобы представлять данные об угрозах в понятной и структурированной форме.
+- Попрактикуйтесь в обогащении данных SIEM и EDR с использованием информации об угрозах.
+- Следите за новыми тенденциями и методами в сфере анализа угроз, включая использование машинного обучения для анализа угроз.

@@ -1,28 +1,30 @@
-# Threat Hunting
+# Поиск угроз (Threat Hunting)
 
-## Description
-Threat Hunting is a proactive process of searching for threats in the IT infrastructure that have not been detected by classic security tools, such as antiviruses or SIEM. The main goal is to identify hidden attacks or abnormal activity that may indicate the presence of intruders in the system. This process requires deep data analysis, understanding the principles of operation of various systems and the use of indicators of compromise (IOC), as well as knowledge of attack tactics and techniques from MITRE ATT&CK.
+## Описание
+Поиск угроз — это упреждающий процесс поиска угроз в ИТ-инфраструктуре, которые не были обнаружены классическими инструментами безопасности, такими как антивирусы или SIEM. Основная цель — выявить скрытые атаки или аномальную активность, которая может указывать на присутствие злоумышленников в системе. Этот процесс требует глубокого анализа данных, понимания принципов работы различных систем и использования индикаторов компрометации (IOC), а также знаний о тактике и методах атак из MITRE ATT&CK.
 
-## Practice
-An analyst can use Threat Hunting to:
-- Find anomalies: Analyze logs, network traffic, and endpoint data to identify suspicious activity such as unusual network connections, changes in process behavior, unusual task creation, file modification, unexpected data in the system, and illegitimate events.
-- Work with IOCs: Use indicators of compromise (file hashes, IP addresses, domains) to find traces of attackers.
-- Develop hypotheses: Build hypotheses about potential threats based on current system data and knowledge of attack methods.
-- Respond to detected threats: Prepare recommendations for eliminating threats, monitoring, and improving protection to prevent attacks from recurring.
+## Практика
+Аналитик может использовать охоту за угрозами для:
 
-## Connection with other knowledge
-Threat Hunting is closely related to other aspects of Blue Team expertise:
-- Threat Intelligence: Intelligence helps to build hypotheses for searching for threats and to refine the analysis criteria.
-- Information security tools: EDR and SIEM systems are the main tools/sources for conducting Threat Hunting.
-- Event monitoring: Data from event logs is used to search for abnormal activity.
-- Attack models: Knowledge of MITRE ATT&CK and Cyber ​​Kill Chain helps to understand at what stages of the attack it is possible to detect traces of intruders, as well as points of penetration into the infrastructure and vectors of cyberattack development.
+- Поиска аномалий: проанализируйте журналы, сетевой трафик и данные о конечных устройствах, чтобы выявить подозрительную активность, например необычные сетевые подключения, изменения в поведении процессов, необычное создание задач, изменение файлов, неожиданные данные в системе и незаконные действия.
+- Работы с IOC: используйте индикаторы компрометации (хеш-коды файлов, IP-адреса, домены), чтобы найти следы злоумышленников.
+- Построения гипотез: стройте гипотезы о потенциальных угрозах на основе текущих системных данных и знаний о методах атак.
+- Реагирования на обнаруженные угрозы: подготовьте рекомендации по устранению угроз, мониторингу и улучшению защиты, чтобы предотвратить повторение атак.
 
-## How to improve
-- Follow Threat Hunting reports and case studies to learn examples of successful attack detection.
-- Learn how EDR and SIEM systems work to hunt for threats.
-- Study attack models such as MITRE ATT&CK to understand attacker tactics and techniques and find their traces.
-- Practice analyzing logs and network traffic data to identify anomalies. For example, work with data from Wireshark.
-- Learn methods for analyzing indicators of compromise (IOC) and using Yara rules to find malicious activity.
-- Improve your skills in building hypotheses and testing them based on data about current system activity and information about new attack methods.
-- Participate in exercises and attack simulations (e.g. CTF games) to sharpen your threat hunting skills in real-world conditions.
-- Master the automation of the Threat Hunting process using Python or other data analysis tools.
+## Связь с другими знаниями
+Охота за угрозами тесно связан с другими аспектами Blue Team:
+
+- Анализ угроз: разведданные помогают строить гипотезы для поиска угроз и уточнять критерии анализа.
+- Инструменты информационной безопасности: системы EDR и SIEM являются основными инструментами/источниками для поиска угроз.
+- Мониторинг событий: Данные из журналов событий используются для поиска аномальной активности.
+- Модели атак: знание MITRE ATT&CK и Cyber Kill Chain помогает понять, на каких этапах атаки можно обнаружить следы злоумышленников, а также точки проникновения в инфраструктуру и векторы развития кибератак.
+
+## Как улучшить
+- Следите за отчетами об обнаружении угроз и тематическими исследованиями, чтобы ознакомиться с примерами успешного обнаружения атак.
+- Узнайте, как работают системы EDR и SIEM для поиска угроз.
+- Изучите модели атак, такие как MITRE ATT&CK, чтобы понять тактику и методы злоумышленников и найти их следы.
+- Практикуйтесь в анализе журналов и данных о сетевом трафике для выявления аномалий. Например, работайте с данными из Wireshark.
+- Изучите методы анализа индикаторов компрометации (IOC) и использования правил Yara для обнаружения вредоносной активности.
+- Совершенствуйте свои навыки в построении гипотез и их проверке на основе данных о текущей активности системы и информации о новых методах атак.
+- Участвуйте в учениях и симуляциях атак (например, в играх CTF), чтобы отточить свои навыки поиска угроз в реальных условиях.
+- Освойте автоматизацию процесса поиска угроз с помощью Python или других инструментов анализа данных.

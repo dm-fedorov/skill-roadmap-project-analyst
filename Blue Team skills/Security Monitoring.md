@@ -1,19 +1,20 @@
-# Security Monitoring
+# Мониторинг событий безопасности
 
-## Description
-Security monitoring is the process of continuously monitoring and analyzing activity on systems and networks to detect suspicious activity and potential security incidents. Monitoring systems collect data on events such as logins, configuration changes, network connections, and file operations. This data is analyzed to identify anomalies or activity that may indicate hacking attempts, malware distribution, or other threats. Event monitoring plays a key role in identifying incidents at an early stage and preventing cyber attacks.
+## Описание
+Мониторинг безопасности — это процесс непрерывного отслеживания и анализа активности в системах и сетях для выявления подозрительной активности и потенциальных инцидентов, связанных с безопасностью. Системы мониторинга собирают данные о таких событиях, как вход в систему, изменения конфигурации, сетевые подключения и операции с файлами. Эти данные анализируются для выявления аномалий или активности, которая может указывать на попытки взлома, распространение вредоносного ПО или другие угрозы. Мониторинг событий играет ключевую роль в выявлении инцидентов на ранней стадии и предотвращении кибератак.
 
-## Practice
-An analyst does not work directly with event monitoring systems such as SIEM, but receives the output of their work — logs and reports of suspicious activities. The analyst’s job is to interpret this data, identify important events, and suggest response measures. For example, if unauthorized login attempts or suspicious configuration changes are detected in the logs, the analyst must assess their significance and suggest measures to eliminate the threat. Event monitoring helps identify attacks in real time and take action before an incident becomes a serious problem.
+## Практика
+Аналитик не работает напрямую с системами мониторинга событий, такими как SIEM, но получает результаты их работы — журналы и отчёты о подозрительных действиях. Задача аналитика — интерпретировать эти данные, выявлять важные события и предлагать меры реагирования. Например, если в журналах обнаруживаются попытки несанкционированного входа в систему или подозрительные изменения конфигурации, аналитик должен оценить их значимость и предложить меры по устранению угрозы. Мониторинг событий помогает выявлять атаки в режиме реального времени и принимать меры до того, как инцидент станет серьёзной проблемой.
 
-## Connection with other knowledge
-Security monitoring is closely related to other aspects of cybersecurity, such as defense tools, threat hunting, threat intelligence, indicator of compromise (IOC) analysis, incident management, and threat response. Logs and events collected by monitoring tools can be linked to attacks described in MITRE ATT&CK or Cyber ​​Kill Chain, which helps to analyze attacks in more depth. This data is also used to generate reports and recommendations for improving security. Event monitoring integrates with network protection systems and antiviruses for comprehensive infrastructure protection.
+## Связь с другими знаниями
+Мониторинг безопасности тесно связан с другими аспектами кибербезопасности, такими как средства защиты, поиск угроз, анализ угроз, индикаторы компрометации (IOC), управление инцидентами и реагирование на угрозы. Журналы и события, собираемые инструментами мониторинга, могут быть связаны с атаками, описанными в MITRE ATT&CK или Cyber Kill Chain, что помогает более детально анализировать атаки. Эти данные также используются для составления отчётов и рекомендаций по повышению безопасности. Мониторинг событий интегрируется с системами защиты сети и антивирусами для комплексной защиты инфраструктуры.
 
-## How to improve
-- Learn how event monitoring systems like SIEM work to understand how they collect and analyze data to identify threats.
-- Improve your skills in interpreting security event logs and reports to quickly identify critical incidents and anomalies in system behavior.
-- Become familiar with common incidents detected by event monitoring, such as unauthorized login attempts, configuration changes, or abnormal network traffic.
-- Practice analyzing events from different data sources (servers, workstations, network devices) to gain a comprehensive understanding of what is happening in the infrastructure.
-- Learn event correlation methods in monitoring systems to understand how different events can point to the same incident or attack.
-- Stay up to date with new event monitoring technologies and tools to stay up to date with the latest solutions in real-time incident detection.
-- Participate in event monitoring and analysis training and workshops to improve your skills in interpreting data and responding to security incidents.
+## Как улучшить
+- Узнайте, как работают системы мониторинга событий, такие как SIEM, чтобы понять, как они собирают и анализируют данные для выявления угроз.
+- Совершенствуйте свои навыки в интерпретации журналов событий безопасности и отчётов, чтобы быстро выявлять критические инциденты и аномалии в поведении системы.
+- Ознакомьтесь с распространёнными инцидентами, выявляемыми с помощью мониторинга событий, такими как попытки несанкционированного входа в систему, изменения конфигурации или аномальный сетевой трафик.
+- Практикуйтесь в анализе событий из разных источников данных (серверов, рабочих станций, сетевых устройств), чтобы получить полное представление о том, что происходит в инфраструктуре.
+- Изучите методы сопоставления событий в системах мониторинга, чтобы понять, как разные события могут указывать на один и тот же инцидент или атаку.
+- Будьте в курсе новых технологий и инструментов мониторинга событий, чтобы быть в курсе последних решений для обнаружения инцидентов в режиме реального времени.
+- Участвуйте в тренингах и семинарах по мониторингу и анализу событий, чтобы улучшить свои навыки интерпретации данных и реагирования на инциденты, связанные с безопасностью.
+

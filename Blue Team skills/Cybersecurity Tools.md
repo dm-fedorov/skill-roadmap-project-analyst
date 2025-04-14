@@ -1,27 +1,24 @@
-# Cybersecurity Tools
+# Инструменты кибербезопасности
 
-## Description
-Cybersecurity tools include tools, technologies, and methods aimed at monitoring, detecting, and preventing cyberattacks. These tools are used to analyze security events, correlate data, detect anomalies, and respond to incidents. Main categories include SIEM (Security Information and Event Management), EDR (Endpoint Detection and Response), NDR (Network Detection and Response), as well as other specialized infrastructure monitoring and protection tools.
+## Описание
+Инструменты кибербезопасности включают в себя средства, технологии и методы, направленные на мониторинг, обнаружение и предотвращение кибератак. Эти инструменты используются для анализа событий, связанных с безопасностью, сопоставления данных, выявления аномалий и реагирования на инциденты. К основным категориям относятся SIEM (система управления информацией и событиями безопасности), EDR (система обнаружения и реагирования на угрозы на конечных устройствах), NDR (система обнаружения и реагирования на угрозы в сети), а также другие специализированные инструменты для мониторинга и защиты инфраструктуры.
 
-## Practice
-It is important for an analyst to understand the functionality and operating principles of such tools as:
-- SIEM systems: For example, Splunk, ELK, ArcSight. These tools aggregate and analyze data from various sources, such as network devices, event logs, security systems, etc., to identify threats and anomalies.
-- EDR systems: For example, CrowdStrike Falcon, Microsoft Defender for Endpoint. They focus on endpoint protection and provide functions for detailed analysis of activity on devices.
-- NDR systems: For example, Darktrace, Vectra AI. These solutions allow you to monitor network activity and identify anomalies at the network traffic level.
-- IRP platforms: Incident management platforms (for example, Palo Alto Cortex XSOAR) help automate the incident response process.
+## Практика
+Аналитику важно понимать функциональность и принципы работы таких инструментов, как:
 
-In their practice, an analyst uses data from these tools to build reports, analyze attack chains, prepare recommendations for protection, and identify bottlenecks in current security systems.
+- Системы SIEM: например, Splunk, ELK, ArcSight. Эти инструменты собирают и анализируют данные из различных источников, таких как сетевые устройства, журналы событий, системы безопасности и т. д., для выявления угроз и аномалий.
+- Системы EDR: например, CrowdStrike Falcon, Microsoft Defender для конечных устройств. Они ориентированы на защиту конечных устройств и предоставляют функции для подробного анализа активности на устройствах.
+- Системы NDR: например, Darktrace, Vectra AI. Эти решения позволяют отслеживать активность в сети и выявлять аномалии на уровне сетевого трафика.
+- Платформы IRP: платформы для управления инцидентами (например, Palo Alto Cortex XSOAR) помогают автоматизировать процесс реагирования на инциденты.
+В своей работе аналитик использует данные этих инструментов для составления отчётов, анализа цепочек атак, подготовки рекомендаций по защите и выявления узких мест в существующих системах безопасности.
 
-## Connection with other knowledge
-Cybersecurity tools provide logs and data for analysis. SIEM and EDR are integrated to create a unified monitoring system.
-Threat Intelligence: Data from information security tools can be supplemented with intelligence information to provide a more complete picture of threats.
-Threat Hunting: Tools such as EDR and NDR are actively used to find hidden threats and anomalies in the system.
-Attack chain analysis: Security tools help to detail the actions of attackers at each stage of the attack.
+## Связь с другими знаниями
+Инструменты кибербезопасности предоставляют журналы и данные для анализа. SIEM и EDR интегрированы для создания единой системы мониторинга. Анализ угроз: данные, полученные с помощью инструментов информационной безопасности, могут быть дополнены разведывательной информацией для получения более полной картины угроз. Поиск угроз: такие инструменты, как EDR и NDR, активно используются для поиска скрытых угроз и аномалий в системе. Анализ цепочки атак: инструменты безопасности помогают детально изучить действия злоумышленников на каждом этапе атаки.
 
-## How to improve
-- Learn the basics of working with SIEM systems, their functionality, interfaces, and data correlation methods. Start with tools such as Splunk or ELK, which are widely used in the industry.
-- Learn how EDR systems work, including endpoint monitoring, process analysis, and incident management.
-- Explore NDR solutions for network traffic analysis and anomaly detection.
-- Learn the basics of setting up and using IRP platforms to automate incident handling and manage response processes.
-- Practice analyzing logs and reports provided by information security tools to develop skills in interpreting data and identifying threats.
-- Keep an eye on new solutions and trends in information security tools to understand which technologies are most relevant for the current tasks of the Blue Team.
+## Как улучшить
+- Изучите основы работы с SIEM-системами, их функциональность, интерфейсы и методы сопоставления данных. Начните с таких инструментов, как Splunk или ELK, которые широко используются в отрасли.
+- Узнайте, как работают системы EDR, включая мониторинг конечных устройств, анализ процессов и управление инцидентами.
+- Изучите решения NDR для анализа сетевого трафика и обнаружения аномалий.
+- Ознакомьтесь с основами настройки и использования платформ IRP для автоматизации обработки инцидентов и управления процессами реагирования.
+- Практикуйтесь в анализе журналов и отчётов, предоставляемых инструментами кибербезопасности, чтобы развить навыки интерпретации данных и выявления угроз.
+- Следите за новыми решениями и тенденциями в области инструментов кибербезопасности, чтобы понимать, какие технологии наиболее актуальны для текущих задач Blue Team.
